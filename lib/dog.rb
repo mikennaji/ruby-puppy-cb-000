@@ -13,9 +13,7 @@ def self.all
 end
 
 def self.clear_all
-  @@all.each do |object|
-    @@all.pop
-  end
+  @@all = []
 end
 
 
