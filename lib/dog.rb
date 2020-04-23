@@ -5,7 +5,7 @@ attr_accessor :name
 
 def initialize(name)
   @name = name
-  @@all << self.name
+  @@all << self
 end
 
 def self.all
@@ -18,7 +18,7 @@ end
 
 def self.print_all
   @@all.each do |name|
-    puts "#{word}"
+    puts "#{self.name}"
   end
 end
 
