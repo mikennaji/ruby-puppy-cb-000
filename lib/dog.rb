@@ -18,7 +18,7 @@ end
 
 def self.print_all
   @@all.each do |name|
-    puts "#{self.name}"
+    puts "#{word}"
   end
 end
 
