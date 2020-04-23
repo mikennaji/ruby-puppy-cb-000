@@ -12,6 +12,12 @@ def self.all
   @@all
 end
 
+def self.clear_all
+  @@all.each do |object|
+    @@all.pop
+  end
+end
+
 
 
 
